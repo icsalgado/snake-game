@@ -7,15 +7,14 @@ snake[0] = {
     y: 8* box
 }
 let direction = "right";
-let food = {
-    x: Math.floor(Math.random() * 15 + 1) = box,
-    y: Math.floor(Math.random() * 15 + 1) = box
+
+let food ={
+    x: Math.floor(Math.random() * 15 + 1) * box,
+    y: Math.floor(Math.random() * 15 + 1) * box
 }
 
 function criarBG() {
-    //pinta o funco do canvas
     context.fillStyle = "lightgreen";
-    //desenha x e y e altura
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
